@@ -5,6 +5,6 @@ export class Step {
     public sequence: number,
     public title: string,
     public nextButtonText: string,
-    public editButtonText: string,
+    public prevButtonText: string,
     public component: Type<any>) {}
 }
